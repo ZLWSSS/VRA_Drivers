@@ -1,0 +1,9 @@
+<!DOCTYPE Board_Memory_Definition_File>
+<root name="STM32G474CETx">
+  <MemorySegment name="FLASH1" start="0x08000000" size="0x00080000" access="ReadOnly" />
+  <MemorySegment name="CCM_RAM1_Vec" start="0x10000000" size="0x00000400" access="Read/Write" />
+  <MemorySegment name="CCM_RAM1" start="0x10000800" size="0x00007800" access="Read/Write" />
+  <MemorySegment name="RAM1" start="0x20000000" size="0x00014000" access="Read/Write" />
+  <MemorySegment name="RAM2" start="0x20014000" size="0x00004000" access="Read/Write" />
+  <MemorySegment name="CCM_RAM_Data" start="0x20018400" size="0x00000400" access="Read/Write" />
+</root>

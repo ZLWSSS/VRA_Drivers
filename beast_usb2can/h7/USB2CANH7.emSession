@@ -1,0 +1,149 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBuffer>
+  <FrameBufferWindow width="1340279359" keepAspectRatio="0" zoomToFitWindow="0" showGrid="0" addressSpace="" format="0" height="-1432196667" autoEvaluate="0" scaleFactor="1" refreshPeriod="0" name="USB2CANH7_Debug Internal" addressText="" accessByDisplayWidth="0"/>
+  <FrameBufferWindow width="1340279359" keepAspectRatio="0" zoomToFitWindow="0" showGrid="0" addressSpace="" format="0" height="-1432196667" autoEvaluate="0" scaleFactor="1" refreshPeriod="0" name="USB2CANH7_Release Internal" addressText="" accessByDisplayWidth="0"/>
+ </FrameBuffer>
+ <Memory1>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="USB2CANH7_Debug Internal" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="USB2CANH7_Release Internal" sizeText="" addressText=""/>
+ </Memory1>
+ <Memory2>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="USB2CANH7_Debug Internal" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="USB2CANH7_Release Internal" sizeText="" addressText=""/>
+ </Memory2>
+ <Memory3>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="USB2CANH7_Debug Internal" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="USB2CANH7_Release Internal" sizeText="" addressText=""/>
+ </Memory3>
+ <Memory4>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="USB2CANH7_Debug Internal" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="USB2CANH7_Release Internal" sizeText="" addressText=""/>
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="USB2CANH7"/>
+  <ProjectSessionItem path="USB2CANH7;USB2CANH7"/>
+  <ProjectSessionItem path="USB2CANH7;USB2CANH7;Core"/>
+  <ProjectSessionItem path="USB2CANH7;USB2CANH7;Core;Inc"/>
+  <ProjectSessionItem path="USB2CANH7;USB2CANH7;Core;Src"/>
+  <ProjectSessionItem path="USB2CANH7;USB2CANH7;Core;Startup"/>
+  <ProjectSessionItem path="USB2CANH7;USB2CANH7;Drivers"/>
+  <ProjectSessionItem path="USB2CANH7;USB2CANH7;USB_DEVICE"/>
+  <ProjectSessionItem path="USB2CANH7;USB2CANH7;USB_DEVICE;App"/>
+  <ProjectSessionItem path="USB2CANH7;USB2CANH7;USB_DEVICE;Target"/>
+  <ProjectSessionItem path="USB2CANH7;USB2CANH7;Usr"/>
+  <ProjectSessionItem path="USB2CANH7;USB2CANH7;Usr;Inc"/>
+  <ProjectSessionItem path="USB2CANH7;USB2CANH7;Usr;Src"/>
+ </Project>
+ <Register1>
+  <RegisterWindow invisibleNodes="" visibleNodes="" binaryNodes="" asciiNodes="" openNodes="" name="USB2CANH7_Debug Internal" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="USB2CANH7_Release Internal" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register1>
+ <Register2>
+  <RegisterWindow invisibleNodes="" visibleNodes="" binaryNodes="" asciiNodes="" openNodes="" name="USB2CANH7_Debug Internal" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="USB2CANH7_Release Internal" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register2>
+ <Register3>
+  <RegisterWindow invisibleNodes="" visibleNodes="" binaryNodes="" asciiNodes="" openNodes="" name="USB2CANH7_Debug Internal" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="USB2CANH7_Release Internal" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register3>
+ <Register4>
+  <RegisterWindow invisibleNodes="" visibleNodes="" binaryNodes="" asciiNodes="" openNodes="" name="USB2CANH7_Debug Internal" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="USB2CANH7_Release Internal" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register4>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Twice a Second">
+   <Watchpoint expression="test" name="test" radix="10" linenumber="180" filename="Core/Src/stm32h7xx_it.c"/>
+   <Watchpoint expression="h7_board" name="h7_board" radix="-1" linenumber="31" filename="Usr/Src/h7_task.c"/>
+   <Watchpoint expression="spi_cmd_lock_spi1" name="spi_cmd_lock_spi1" radix="-1" linenumber="146" filename="Usr/Src/h7_task.c"/>
+   <Watchpoint expression="spi_cmd_lock_spi3" name="spi_cmd_lock_spi3" radix="-1" linenumber="146" filename="Usr/Src/h7_task.c"/>
+   <Watchpoint expression="spi_cmd_lock_spi4" name="spi_cmd_lock_spi4" radix="-1" linenumber="146" filename="Usr/Src/h7_task.c"/>
+   <Watchpoint expression="receive_flag" name="receive_flag" radix="2" linenumber="255" filename="Usr/Src/h7_task.c"/>
+   <Watchpoint expression="local_fl_handle" name="local_fl_handle" radix="-1" linenumber="6" filename="Usr/Src/flowing_led.c"/>
+  </Watches>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="69" y="145" useTextEdit="1" path="Usr/Src/h7_task.c" left="0" top="139" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="7" useTextEdit="1" path="Usr/Inc/usr_usb.h" left="0" top="7" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="33" y="75" useTextEdit="1" path="Usr/Inc/usr_spi.h" left="0" top="55" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="1" y="17" useTextEdit="1" path="Usr/Src/usr_usb.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="51" y="17" useTextEdit="1" path="Usr/Src/usr_spi.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="83" y="41" useTextEdit="1" path="Usr/Inc/h7_task.h" left="0" top="13" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="37" y="7" useTextEdit="1" path="Usr/Src/flowing_led.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="23" y="274" useTextEdit="1" path="Core/Src/stm32h7xx_it.c" left="0" top="239" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="422" useTextEdit="1" path="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c" left="0" top="408" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="9" y="167" useTextEdit="1" path="Core/Inc/stm32h7xx_hal_conf.h" left="0" top="143" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="59" y="103" useTextEdit="1" path="USB_DEVICE/App/usbd_custom_hid_if.c" left="0" top="68" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="117" y="280" useTextEdit="1" path="Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h" left="0" top="258" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="37" y="1900" useTextEdit="1" folds0="1264,1391,1431" path="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c" left="0" top="1877" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="218" useTextEdit="1" path="Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h" left="0" top="198" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Core/Src/dma.c" left="0" top="16" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="341" useTextEdit="1" path="Core/Src/spi.c" left="0" top="341" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="2" y="141" useTextEdit="1" path="Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h" left="0" top="126" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="59" y="70" useTextEdit="1" path="USB_DEVICE/App/usbd_desc.c" left="0" top="70" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Core/Src/memorymap.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Core/Src/stm32h7xx_hal_msp.c" left="0" top="17" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Core/Src/system_stm32h7xx.c" left="0" top="115" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1485" useTextEdit="1" path="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c" left="0" top="1457" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="27" y="73" useTextEdit="1" path="Usr/Src/ram_main.c" left="0" top="45" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="12" y="5803" useTextEdit="1" path="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c" left="0" top="5789" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="31" y="6" useTextEdit="1" path="H7_Support/STM32H750VBTx_MemoryMap.xml" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="79" y="150" useTextEdit="1" path="H7_Support/STM32H7xx_Flash_Variant6.icf" left="0" top="116" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="6" y="6" useTextEdit="1" path="Usr/Inc/ram_main.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="6" useTextEdit="1" path="Usr/Inc/usr_delay.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="60" useTextEdit="1" path="Usr/Src/usr_delay.c" left="0" top="26" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="17" y="53" useTextEdit="1" path="Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h" left="0" top="31" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="45" y="57" useTextEdit="1" path="Core/Src/gpio.c" left="0" top="35" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="23" y="60" useTextEdit="1" path="Core/Inc/main.h" left="0" top="26" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h" left="0" top="69" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="USB_DEVICE/App/usbd_custom_hid_if.h" left="0" top="77" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c" left="0" top="42" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="31" y="2484" useTextEdit="1" path="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c" left="0" top="2484" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="10" y="22" useTextEdit="1" path="Usr/Inc/flowing_led.h" left="0" top="6" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="27" y="48" useTextEdit="1" path="Core/Src/tim.c" left="0" selected="1" top="33" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="25" useTextEdit="1" path="Usr/Inc/usr_buzzer.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="60" useTextEdit="1" path="Usr/Src/usr_buzzer.c" left="0" top="27" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="14" y="1236" useTextEdit="1" path="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c" left="0" top="1203" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="28" y="57" useTextEdit="1" path="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c" left="0" top="27" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="20" y="1812" useTextEdit="1" path="Drivers/CMSIS/Include/core_sc300.h" left="0" top="1779" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="25" y="261" useTextEdit="1" path="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c" left="0" top="255" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="30" y="1068" useTextEdit="1" path="Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h" left="0" top="1044" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="USB_DEVICE/App/usbd_desc.h" left="0" top="21" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="USB_DEVICE/App/usb_device.h" left="0" top="52" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h" left="0" top="84" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="56" y="47" useTextEdit="1" path="Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h" left="0" top="32" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="181" useTextEdit="1" path="Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src/usbd_customhid.c" left="0" top="168" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="48" y="87" useTextEdit="1" path="USB_DEVICE/Target/usbd_conf.h" left="0" top="87" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="19" y="43" useTextEdit="1" path="USB_DEVICE/App/usb_device.c" left="0" top="10" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h" left="0" top="156" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="11" y="24" useTextEdit="1" path="Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="1" y="95" useTextEdit="1" path="Core/Startup/STM32H7xx_Startup.s" left="0" top="89" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="38" y="941" useTextEdit="1" path="Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_gpio.h" left="0" top="914" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="35" useTextEdit="1" path="Core/Src/main.c" left="0" top="19" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="USB_DEVICE/Target/usbd_conf.c" left="0" top="113" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c" left="0" top="141" codecName="Default"/>
+ </Files>
+ <EMStudioWindow activeProject="USB2CANH7" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Release Internal" sessionSettings="" debugSearchFileMap="Usr/Src/task.c&#xa;" fileDialogInitialDirectory="E:/Github_Rep/USB2CAN/H7_Support" debugSearchPath="" autoConnectCapabilities="3711"/>
+</session>

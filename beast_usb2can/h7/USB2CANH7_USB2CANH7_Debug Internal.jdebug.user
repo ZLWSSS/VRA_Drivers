@@ -1,0 +1,37 @@
+
+
+
+Breakpoint=C:/Users/hkclr_user/Documents/GitHub/beast_usb2can/h7/Core/Src/stm32h7xx_it.c:102:3, State=BP_STATE_DISABLED
+Breakpoint=C:/Users/hkclr_user/Documents/GitHub/beast_usb2can/h7/Usr/Src/h7_task.c:203, State=BP_STATE_DISABLED
+Breakpoint=C:/Users/hkclr_user/Documents/GitHub/beast_usb2can/h7/Usr/Src/h7_task.c:215:23, State=BP_STATE_DISABLED
+GraphedExpression="receive_flag", DisplayFormat=DISPLAY_FORMAT_DEC, Color=#35792b, Show=0
+OpenDocument="usr_spi.h", FilePath="C:/Users/hkclr_user/Documents/GitHub/beast_usb2can/h7/Usr/Inc/usr_spi.h", Line=0
+OpenDocument="h7_task.c", FilePath="C:/Users/hkclr_user/Documents/GitHub/beast_usb2can/h7/Usr/Src/h7_task.c", Line=149
+OpenDocument="usr_delay.c", FilePath="C:/Users/hkclr_user/Documents/GitHub/beast_usb2can/h7/Usr/Src/usr_delay.c", Line=23
+OpenDocument="main.c", FilePath="C:/Users/hkclr_user/Documents/GitHub/beast_usb2can/h7/Core/Src/main.c", Line=24
+OpenToolbar="Debug", Floating=0, x=0, y=0
+OpenWindow="Call Stack", DockArea=RIGHT, x=0, y=0, w=275, h=337, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Registers 1", DockArea=RIGHT, x=0, y=1, w=275, h=337, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, FilteredItems=[], RefreshRate=1
+OpenWindow="Watched Data 1", DockArea=LEFT, x=0, y=0, w=752, h=550, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Call Graph", DockArea=LEFT, x=0, y=1, w=752, h=124, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Data Sampling", DockArea=BOTTOM, x=0, y=0, w=848, h=267, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VisibleTab=0, UniformSampleSpacing=0
+OpenWindow="Timeline", DockArea=BOTTOM, x=1, y=0, w=1071, h=267, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=1, DataPaneShown=1, PowerPaneShown=0, CodePaneShown=0, PinCursor="Cursor Movable", TimePerDiv="2 s / Div", TimeStampFormat="Time", DataGraphDrawAsPoints=0, DataGraphLegendShown=1, DataGraphUniformSampleSpacing=0, DataGraphLegendPosition="682;0", DataGraphShowNamesAtCursor=1, PowerGraphDrawAsPoints=0, PowerGraphLegendShown=0, PowerGraphAvgFilterTime=Off, PowerGraphAvgFilterLen=Off, PowerGraphUniformSampleSpacing=0, PowerGraphLegendPosition="909;-14", CodeGraphLegendShown=0, CodeGraphLegendPosition="913;-2"
+SmartViewPlugin="", Page="", Toolbar="Hidden", Window="SmartView 1"
+TableHeader="Call Stack", SortCol="Function", SortOrder="ASCENDING", VisibleCols=["Function";"Stack Frame";"Source";"PC";"Return Address";"Stack Used"], ColWidths=[170;112;128;100;168;100]
+TableHeader="Call Graph", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Stack Total";"Stack Local";"Code Total";"Code Local";"Depth";"Called From"], ColWidths=[660;100;100;100;100;100;100]
+TableHeader="Data Sampling Table", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";" receive_flag"], ColWidths=[100;100;100]
+TableHeader="Data Sampling Setup", SortCol="Min", SortOrder="ASCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[792;105;100;100;100;100;100;100;100]
+TableHeader="Power Sampling", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;100]
+TableHeader="Registers 1", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Auto";"Name";"Value";"Description"], ColWidths=[103;114;190;224]
+TableHeader="Watched Data 1", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Refresh"], ColWidths=[225;387;100;100]
+TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
+TableHeader="TargetExceptionDialog", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Address";"Description"], ColWidths=[200;100;100;359]
+WatchedExpression="local_fl_handle", RefreshRate=5, DisplayFormat=DISPLAY_FORMAT_DEC, Window=Watched Data 1
+WatchedExpression="buzzer", DisplayFormat=DISPLAY_FORMAT_DEC, Window=Watched Data 1
+WatchedExpression="hUsbDeviceHS", DisplayFormat=DISPLAY_FORMAT_DEC, Window=Watched Data 1
+WatchedExpression="receive_flag", RefreshRate=5, DisplayFormat=DISPLAY_FORMAT_DEC, Window=Watched Data 1
+WatchedExpression="data_rx_checksize", RefreshRate=5, DisplayFormat=DISPLAY_FORMAT_DEC, Window=Watched Data 1
+WatchedExpression="h7_board", RefreshRate=5, DisplayFormat=DISPLAY_FORMAT_DEC, Window=Watched Data 1
+WatchedExpression="p_int", RefreshRate=5, DisplayFormat=DISPLAY_FORMAT_DEC, Window=Watched Data 1
+WatchedExpression="receive_flag", RefreshRate=5, DisplayFormat=DISPLAY_FORMAT_BINARY, Window=Watched Data 1
+WatchedExpression="check_", RefreshRate=5, Window=Watched Data 1

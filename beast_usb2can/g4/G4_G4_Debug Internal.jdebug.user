@@ -1,0 +1,47 @@
+
+
+
+Breakpoint=C:/Users/hkclr_user/Documents/GitHub/beast_usb2can/g4/Usr/Src/G474_Motor.c:154:16, State=BP_STATE_DISABLED
+Breakpoint=C:/Users/hkclr_user/Documents/GitHub/beast_usb2can/g4/Usr/Src/G474_Motor.c:308:20, State=BP_STATE_DISABLED
+GraphedExpression="(motor_data_monitor).tor_data_", Color=#e56a6f, Show=0
+GraphedExpression="status_bits", DisplayFormat=DISPLAY_FORMAT_DEC, Color=#35792b, Show=0
+GraphedExpression="(((motors_manager).motor_cmds_).spi_cmd).flag_cmd[0]", Color=#769dda, Show=0
+GraphedExpression="(motor_data_monitor).acc_", Color=#b14f0d
+OpenDocument="main.c", FilePath="C:/Users/hkclr_user/Documents/GitHub/beast_usb2can/g4/Core/Src/main.c", Line=45
+OpenDocument="G474_Motor.h", FilePath="C:/Users/hkclr_user/Documents/GitHub/beast_usb2can/g4/Usr/Inc/G474_Motor.h", Line=0
+OpenDocument="stm32g4xx_it.c", FilePath="C:/Users/hkclr_user/Documents/GitHub/beast_usb2can/g4/Core/Src/stm32g4xx_it.c", Line=89
+OpenDocument="ram_main.c", FilePath="C:/Users/hkclr_user/Documents/GitHub/beast_usb2can/g4/Usr/Src/ram_main.c", Line=36
+OpenDocument="STM32G4xx_Startup.s", FilePath="C:/Users/hkclr_user/Documents/GitHub/beast_usb2can/g4/Core/Startup/STM32G4xx_Startup.s", Line=109
+OpenDocument="G474_Motor.c", FilePath="C:/Users/hkclr_user/Documents/GitHub/beast_usb2can/g4/Usr/Src/G474_Motor.c", Line=176
+OpenDocument="G474_Can.c", FilePath="C:/Users/hkclr_user/Documents/GitHub/beast_usb2can/g4/Usr/Src/G474_Can.c", Line=11
+OpenToolbar="Debug", Floating=0, x=0, y=0
+OpenWindow="Call Stack", DockArea=RIGHT, x=0, y=2, w=440, h=142, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Registers 1", DockArea=RIGHT, x=0, y=3, w=440, h=140, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, FilteredItems=[], RefreshRate=1
+OpenWindow="Disassembly", DockArea=RIGHT, x=0, y=1, w=440, h=121, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Watched Data 1", DockArea=LEFT, x=0, y=0, w=652, h=441, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Call Graph", DockArea=LEFT, x=0, y=1, w=652, h=140, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Data Sampling", DockArea=BOTTOM, x=0, y=0, w=518, h=360, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VisibleTab=0, UniformSampleSpacing=0
+OpenWindow="Timeline", DockArea=BOTTOM, x=1, y=0, w=1401, h=360, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=1, DataPaneShown=1, PowerPaneShown=0, CodePaneShown=0, PinCursor="Cursor Movable", TimePerDiv="100 ms / Div", TimeStampFormat="Time", DataGraphDrawAsPoints=0, DataGraphLegendShown=1, DataGraphUniformSampleSpacing=0, DataGraphLegendPosition="1022;0", DataGraphShowNamesAtCursor=0, PowerGraphDrawAsPoints=0, PowerGraphLegendShown=0, PowerGraphAvgFilterTime=Off, PowerGraphAvgFilterLen=Off, PowerGraphUniformSampleSpacing=0, PowerGraphLegendPosition="913;-11", CodeGraphLegendShown=0, CodeGraphLegendPosition="913;-2"
+OpenWindow="Find Results", DockArea=RIGHT, x=0, y=0, w=440, h=176, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+SmartViewPlugin="", Page="", Toolbar="Hidden", Window="SmartView 1"
+TableHeader="Call Stack", SortCol="Function", SortOrder="ASCENDING", VisibleCols=["Function";"Stack Frame";"Source";"PC";"Return Address";"Stack Used"], ColWidths=[170;112;128;100;168;100]
+TableHeader="Call Graph", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Stack Total";"Stack Local";"Code Total";"Code Local";"Depth";"Called From"], ColWidths=[660;100;100;100;100;100;100]
+TableHeader="Data Sampling Table", SortCol="None", SortOrder="ASCENDING", VisibleCols=[" (((motors_manager).motor_cmds_).spi_cmd).flag_cmd[0]";"Index";"Time";" (motor_data_monitor).tor_data_";" status_bits";" (motor_data_monitor).acc_"], ColWidths=[100;100;100;100;100;100]
+TableHeader="Data Sampling Setup", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[344;161;100;100;100;100;100;100;100]
+TableHeader="Power Sampling", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;100]
+TableHeader="Registers 1", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Description"], ColWidths=[100;105;224]
+TableHeader="Watched Data 1", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Location";"Value";"Refresh"], ColWidths=[150;144;180;178]
+TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
+TableHeader="TargetExceptionDialog", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Address";"Description"], ColWidths=[200;100;100;359]
+WatchedExpression="motors_manager", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="hspi1", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="local_can_manager", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="rx_header", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="motor_msg", Window=Watched Data 1
+WatchedExpression="motors_data", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="status_bits", RefreshRate=5, DisplayFormat=DISPLAY_FORMAT_BINARY, Window=Watched Data 1
+WatchedExpression="dma_success_update", Window=Watched Data 1
+WatchedExpression="motor_data_monitor", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="pos", Window=Watched Data 1
+WatchedExpression="dma_success_update", Window=Watched Data 1
+WatchedExpression="dma_transmitting", Window=Watched Data 1

@@ -1,0 +1,11 @@
+<!DOCTYPE Board_Memory_Definition_File>
+<root name="STM32H750VBTx">
+  <MemorySegment name="ITCM_RAM1" start="0x00000000" size="0x00010000" access="Read/Write" />
+  <MemorySegment name="FLASH1" start="0x08000000" size="0x00020000" access="ReadOnly" />
+  <MemorySegment name="DTCM_RAM1_VEC" start="0x20000000" size="0x00000400" access="Read/Write" />
+  <MemorySegment name="DTCM_RAM1" start="0x20000400" size="0x0001FC00" access="Read/Write" />
+  <MemorySegment name="AXI_RAM1" start="0x24000000" size="0x00080000" access="Read/Write" />
+  <MemorySegment name="RAM1" start="0x30000000" size="0x00048000" access="Read/Write" />
+  <MemorySegment name="RAM2" start="0x38000000" size="0x00010000" access="Read/Write" />
+  <MemorySegment name="Backup_RAM1" start="0x38800000" size="0x00001000" access="Read/Write" />
+</root>

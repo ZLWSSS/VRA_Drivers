@@ -1,0 +1,156 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBuffer>
+  <FrameBufferWindow width="0" keepAspectRatio="0" zoomToFitWindow="0" showGrid="0" addressSpace="" format="0" height="0" autoEvaluate="0" scaleFactor="1" refreshPeriod="0" name="beast_motor_driver_Debug Internal" addressText="" accessByDisplayWidth="0"/>
+  <FrameBufferWindow width="0" keepAspectRatio="0" zoomToFitWindow="0" showGrid="0" addressSpace="" format="0" height="0" autoEvaluate="0" scaleFactor="1" refreshPeriod="0" name="beast_motor_driver_Release Internal" addressText="" accessByDisplayWidth="0"/>
+ </FrameBuffer>
+ <Memory1>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="beast_motor_driver_Debug Internal" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="beast_motor_driver_Release Internal" sizeText="" addressText=""/>
+ </Memory1>
+ <Memory2>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="beast_motor_driver_Debug Internal" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="beast_motor_driver_Release Internal" sizeText="" addressText=""/>
+ </Memory2>
+ <Memory3>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="beast_motor_driver_Debug Internal" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="beast_motor_driver_Release Internal" sizeText="" addressText=""/>
+ </Memory3>
+ <Memory4>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="beast_motor_driver_Debug Internal" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="beast_motor_driver_Release Internal" sizeText="" addressText=""/>
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="beast_motor_driver"/>
+  <ProjectSessionItem path="beast_motor_driver;beast_motor_driver"/>
+  <ProjectSessionItem path="beast_motor_driver;beast_motor_driver;Core"/>
+  <ProjectSessionItem path="beast_motor_driver;beast_motor_driver;Core;Src"/>
+  <ProjectSessionItem path="beast_motor_driver;beast_motor_driver;usr"/>
+ </Project>
+ <Register1>
+  <RegisterWindow invisibleNodes="" visibleNodes="" binaryNodes="" asciiNodes="" openNodes="" name="beast_motor_driver_Debug Internal" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow invisibleNodes="" visibleNodes="" binaryNodes="" asciiNodes="" openNodes="" name="beast_motor_driver_Release Internal" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register1>
+ <Register2>
+  <RegisterWindow invisibleNodes="" visibleNodes="" binaryNodes="" asciiNodes="" openNodes="" name="beast_motor_driver_Debug Internal" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow invisibleNodes="" visibleNodes="" binaryNodes="" asciiNodes="" openNodes="" name="beast_motor_driver_Release Internal" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register2>
+ <Register3>
+  <RegisterWindow invisibleNodes="" visibleNodes="" binaryNodes="" asciiNodes="" openNodes="" name="beast_motor_driver_Debug Internal" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow invisibleNodes="" visibleNodes="" binaryNodes="" asciiNodes="" openNodes="" name="beast_motor_driver_Release Internal" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register3>
+ <Register4>
+  <RegisterWindow invisibleNodes="" visibleNodes="" binaryNodes="" asciiNodes="" openNodes="" name="beast_motor_driver_Debug Internal" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow invisibleNodes="" visibleNodes="" binaryNodes="" asciiNodes="" openNodes="" name="beast_motor_driver_Release Internal" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register4>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Twice a Second">
+   <Watchpoint expression="cmd_csa" name="cmd_csa" radix="-1" linenumber="86" filename="usr/drv.c"/>
+   <Watchpoint expression="cmd_ocpc" name="cmd_ocpc" radix="2" linenumber="88" filename="usr/drv.c"/>
+   <Watchpoint expression="cmd_dcr" name="cmd_dcr" radix="-1" linenumber="111" filename="usr/drv.c"/>
+   <Watchpoint expression="check_ocpc" name="check_ocpc" radix="2" linenumber="256" filename="usr/drv.c"/>
+   <Watchpoint expression="check_csa" name="check_csa" radix="-1" linenumber="260" filename="usr/drv.c"/>
+   <Watchpoint expression="check_dcr" name="check_dcr" radix="-1" linenumber="260" filename="usr/drv.c"/>
+   <Watchpoint expression="current_state" name="current_state" radix="-1" linenumber="486" filename="usr/fsm.c"/>
+   <Watchpoint expression="encoders_handle_" name="encoders_handle_" radix="-1" linenumber="9" filename="usr/encoders.c"/>
+   <Watchpoint expression="initialized" name="initialized" radix="-1" linenumber="535" filename="usr/fsm.c"/>
+   <Watchpoint expression="fsm_drv_h" name="fsm_drv_h" radix="-1" linenumber="465" filename="usr/fsm.c"/>
+  </Watches>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="63" y="167" useTextEdit="1" path="G4_Support/STM32G4xx_Flash.icf" left="0" top="160" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="35" y="7" useTextEdit="1" path="G4_Support/STM32G474CETx_MemoryMap.xml" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="33" y="132" useTextEdit="1" path="Core/Src/tim.c" left="0" top="111" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="8" useTextEdit="1" path="usr/calibrator.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="20" y="31" useTextEdit="1" path="usr/encoders.h" left="0" top="10" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="13" y="46" useTextEdit="1" path="Core/Inc/spi.h" left="0" top="25" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="65" y="83" useTextEdit="1" path="usr/encoders.c" left="0" top="83" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="17" y="18" useTextEdit="1" path="usr/config.h" left="0" top="5" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="26" y="218" useTextEdit="1" path="usr/calibrator.c" left="0" top="208" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="23" useTextEdit="1" path="usr/flash_writer.h" left="0" top="2" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="4" useTextEdit="1" path="usr/flash_writer.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="18" y="30" useTextEdit="1" path="usr/error_status.h" left="0" top="9" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="4" useTextEdit="1" path="usr/error_status.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="15" y="4" useTextEdit="1" path="usr/usr_delay.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="54" useTextEdit="1" path="usr/usr_delay.c" left="0" top="29" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="29" y="5" useTextEdit="1" path="usr/svpwm.h" left="0" top="1" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="13" y="7" useTextEdit="1" path="usr/types.h" left="0" top="7" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="56" y="72" useTextEdit="1" path="usr/svpwm.c" left="0" top="47" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="18" useTextEdit="1" path="usr/csine_cordic.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="113" y="39" useTextEdit="1" path="usr/csine_cordic.c" left="0" top="14" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="33" y="811" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc.h" left="0" top="790" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="17" y="15" useTextEdit="1" path="usr/status_monitor.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="59" useTextEdit="1" path="usr/status_monitor.c" left="0" top="35" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="39" y="803" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_adc.h" left="0" top="782" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="56" useTextEdit="1" path="usr/can_handler.h" left="0" top="32" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="53" y="76" useTextEdit="1" path="usr/can_handler.c" left="0" top="52" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="18" y="2715" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c" left="0" top="2715" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="62" useTextEdit="1" path="usr/pi_regulators.h" left="0" top="38" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="54" y="41" useTextEdit="1" path="usr/pi_regulators.c" left="0" top="22" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="58" y="89" useTextEdit="1" path="C:/Program Files/SEGGER/SEGGER Embedded Studio 8.22a/include/__SEGGER_RTL_FP.h" left="0" top="70" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="46" y="33" useTextEdit="1" path="usr/motor_config.h" left="0" top="16" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Core/Inc/fdcan.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="18" y="24" useTextEdit="1" path="usr/fsm.h" left="0" top="2" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="2" y="225" useTextEdit="1" path="Core/Src/stm32g4xx_it.c" left="0" top="204" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1825" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c" left="0" top="1804" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="37" y="283" useTextEdit="1" path="Core/Src/adc.c" left="0" top="262" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_cordic.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="72" y="1497" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_adc_ex.h" left="0" top="1478" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="22" y="69" useTextEdit="1" path="Core/Inc/main.h" left="0" top="50" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="70" y="108" useTextEdit="1" path="Core/Src/dac.c" left="0" top="108" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Core/Src/cordic.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="18" y="151" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c" left="0" top="151" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="10" y="40" useTextEdit="1" path="Core/Inc/dma.h" left="0" top="21" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="169" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c" left="0" top="150" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="142" useTextEdit="1" path="usr/drv.c" left="0" selected="1" top="115" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="72" useTextEdit="1" path="Core/Src/main.c" left="0" top="60" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="12" y="504" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c" left="0" top="485" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="79" y="245" useTextEdit="1" path="usr/fsm.c" left="0" top="551" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="161" useTextEdit="1" path="Core/Src/spi.c" left="0" top="160" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="4" y="107" useTextEdit="1" path="Core/Src/gpio.c" left="0" top="85" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="16" y="37" useTextEdit="1" path="Core/Src/fdcan.c" left="0" top="21" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="2" y="153" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_fdcan.h" left="0" top="134" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dma.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="20" y="150" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h" left="0" top="131" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h" left="0" top="6" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="156" useTextEdit="1" path="usr/drv.h" left="0" top="130" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_spi.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="18" y="1251" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c" left="0" top="1251" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dac.h" left="0" top="21" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_rcc.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="18" y="1218" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c" left="0" top="1211" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="51" y="948" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c" left="0" top="930" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c" left="0" top="183" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="10" y="12" useTextEdit="1" path="usr/config.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="18" y="857" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac.c" left="0" top="846" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="34" y="205" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dac.h" left="0" top="187" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="27" y="388" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h" left="0" top="370" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_exti.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c" left="0" top="0" codecName="Default"/>
+ </Files>
+ <EMStudioWindow activeProject="beast_motor_driver" fileDialogDefaultFilter="*.h" autoConnectTarget="J-Link" buildConfiguration="Release Internal" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="E:/STM32EMBEDEDSTUDIO_PROJECT/FOC_1/Usr" debugSearchPath="" autoConnectCapabilities="3199"/>
+</session>

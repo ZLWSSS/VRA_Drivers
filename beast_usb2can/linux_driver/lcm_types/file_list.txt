@@ -1,0 +1,1 @@
+lcmtypes/usb_command_t.class lcmtypes/usb_data_t.class

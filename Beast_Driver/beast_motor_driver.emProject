@@ -1,0 +1,187 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="beast_motor_driver" version="2" target="8">
+  <configuration
+    Name="Debug"
+    c_preprocessor_definitions="DEBUG"
+    gcc_debugging_level="Level 3"
+    gcc_omit_frame_pointer="Yes"
+    gcc_optimization_level="None"
+    hidden="Yes" />
+  <configuration
+    Name="Debug Internal"
+    inherited_configurations="Internal;Debug" />
+  <configuration Name="Internal" Platform="ARM" hidden="Yes" />
+  <configuration
+    Name="Release"
+    c_preprocessor_definitions="NDEBUG"
+    gcc_debugging_level="Level 2"
+    gcc_omit_frame_pointer="Yes"
+    gcc_optimization_level="Level 2 balanced"
+    hidden="Yes" />
+  <configuration
+    Name="Release Internal"
+    inherited_configurations="Internal;Release" />
+  <project Name="beast_motor_driver">
+    <configuration
+      Name="Common"
+      arm_architecture="v7EM"
+      arm_compiler_variant="SEGGER"
+      arm_core_type="Cortex-M4"
+      arm_endian="Little"
+      arm_fpu_type="FPv4-SP-D16"
+      arm_linker_variant="SEGGER"
+      arm_target_device_name="STM32G474CE"
+      arm_target_interface_type="SWD"
+      c_user_include_directories="$(ProjectDir)/usr"
+      debug_cpu_registers_file="$(ProjectDir)/G4_Support/STM32G474xx_Registers.xml"
+      debug_start_from_entry_point_symbol="No"
+      debug_target_connection="J-Link"
+      link_linker_script_file="$(ProjectDir)/G4_Support/STM32G4xx_Flash.icf"
+      linker_memory_map_file="$(ProjectDir)/G4_Support/STM32G474CETx_MemoryMap.xml"
+      linker_section_placements_segments="FLASH1 RX 0x08000000 0x00040000;FLASH2 RX 0x08040000 0x00040000;FLASH3 RX 0x1fff7800 0x00000030;FLASH4 RX 0x1ffff800 0x00000030;RAM1 RWX 0x20000000 0x00020000;"
+      project_directory=""
+      project_type="Executable"
+      speed="5000" />
+    <configuration
+      Name="Debug"
+      arm_architecture="v7EM"
+      arm_core_type="Cortex-M4"
+      arm_endian="Little"
+      arm_fp_abi="Hard"
+      arm_fpu_type="FPv4-SP-D16"
+      arm_target_device_name="STM32G474CE"
+      c_preprocessor_definitions="DEBUG;USE_HAL_DRIVER;STM32G474xx"
+      c_user_include_directories="$(ProjectDir)/Core/Inc;$(ProjectDir)/Drivers/STM32G4xx_HAL_Driver/Inc;$(ProjectDir)/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy;$(ProjectDir)/Drivers/CMSIS/Device/ST/STM32G4xx/Include;$(ProjectDir)/Drivers/CMSIS/Include"
+      gcc_debugging_level="Level 3"
+      gcc_optimization_level="Optimize For Size"
+      linker_additional_files=""
+      linker_section_placements_segments="FLASH1 RX 0x08000000 0x00040000;FLASH2 RX 0x08040000 0x00040000;FLASH3 RX 0x1fff7800 0x00000030;FLASH4 RX 0x1ffff800 0x00000030;RAM1 RWX 0x20000000 0x00020000;" />
+    <configuration
+      LIBRARY_HEAP_TYPE="Real-Time"
+      Name="Debug Internal"
+      arm_assembler_variant="SEGGER"
+      arm_library_optimization="Fast"
+      arm_linker_heap_size="2048"
+      arm_linker_stack_size="2048"
+      build_intermediate_directory="$(Configuration)"
+      build_output_directory="$(Configuration)"
+      c_preprocessor_definitions="CAN_FDCAN"
+      gcc_optimization_level="Level 3 for more speed" />
+    <configuration
+      LIBRARY_IO_TYPE="SEMIHOST (host-formatted)"
+      Name="Internal" />
+    <configuration
+      Name="Release"
+      arm_architecture="v7EM"
+      arm_core_type="Cortex-M4"
+      arm_endian="Little"
+      arm_fp_abi="Hard"
+      arm_fpu_type="FPv4-SP-D16"
+      arm_target_device_name="STM32G474CE"
+      c_preprocessor_definitions="USE_HAL_DRIVER;STM32G474xx"
+      c_user_include_directories="$(ProjectDir)/Core/Inc;$(ProjectDir)/Drivers/STM32G4xx_HAL_Driver/Inc;$(ProjectDir)/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy;$(ProjectDir)/Drivers/CMSIS/Device/ST/STM32G4xx/Include;$(ProjectDir)/Drivers/CMSIS/Include"
+      gcc_debugging_level="None"
+      gcc_optimization_level="Optimize For Size"
+      linker_additional_files=""
+      linker_section_placements_segments="FLASH1 RX 0x08000000 0x00040000;FLASH2 RX 0x08040000 0x00040000;FLASH3 RX 0x1fff7800 0x00000030;FLASH4 RX 0x1ffff800 0x00000030;RAM1 RWX 0x20000000 0x00020000;" />
+    <configuration
+      Name="Release Internal"
+      arm_assembler_variant="SEGGER"
+      arm_library_optimization="Fast"
+      arm_linker_heap_size="2048"
+      arm_linker_stack_size="2048"
+      build_intermediate_directory="$(Configuration)"
+      build_output_directory="$(Configuration)"
+      c_macros_files_c_only=""
+      c_preprocessor_definitions="CAN_FDCAN"
+      gcc_optimization_level="Level 3 for more speed"
+      linker_output_format="bin"
+      speed="500"
+      supplyPower="Yes" />
+    <folder Name="Core">
+      <folder Name="Inc">
+        <file file_name="Core/Inc/adc.h" />
+        <file file_name="Core/Inc/cordic.h" />
+        <file file_name="Core/Inc/dac.h" />
+        <file file_name="Core/Inc/fdcan.h" />
+        <file file_name="Core/Inc/gpio.h" />
+        <file file_name="Core/Inc/main.h" />
+        <file file_name="Core/Inc/spi.h" />
+        <file file_name="Core/Inc/stm32g4xx_hal_conf.h" />
+        <file file_name="Core/Inc/stm32g4xx_it.h" />
+        <file file_name="Core/Inc/tim.h" />
+      </folder>
+      <folder Name="Src">
+        <file file_name="Core/Src/adc.c" />
+        <file file_name="Core/Src/cordic.c" />
+        <file file_name="Core/Src/dac.c" />
+        <file file_name="Core/Src/fdcan.c" />
+        <file file_name="Core/Src/gpio.c" />
+        <file file_name="Core/Src/main.c" />
+        <file file_name="Core/Src/spi.c" />
+        <file file_name="Core/Src/stm32g4xx_hal_msp.c" />
+        <file file_name="Core/Src/stm32g4xx_it.c">
+          <configuration
+            Name="Debug Internal"
+            default_code_section=".usr_text"
+            default_const_section=".usr_rodata"
+            default_data_section=".usr_data"
+            default_isr_section=".usr_isr"
+            default_vector_section=".usr_vectors"
+            default_zeroed_section=".usr_bss" />
+          <configuration
+            Name="Release Internal"
+            default_code_section=".usr_text"
+            default_const_section=".usr_rodata"
+            default_data_section=".usr_data"
+            default_isr_section=".usr_isr"
+            default_vector_section=".usr_vectors"
+            default_zeroed_section=".usr_bss" />
+        </file>
+        <file file_name="Core/Src/system_stm32g4xx.c" />
+        <file file_name="Core/Src/tim.c" />
+      </folder>
+      <folder Name="Startup">
+        <file file_name="Core/Startup/stm32g474xx_Vectors.s" />
+        <file file_name="Core/Startup/STM32G4xx_Startup.s" />
+      </folder>
+    </folder>
+    <folder
+      Name="Drivers"
+      exclude="Drivers/;*_PP.s;*_PP.c"
+      filter="*.c;*.h;*.cpp;*.hpp;*.s;*.S"
+      path="Drivers"
+      recurse="Yes">
+      <configuration
+        Name="Debug Internal"
+        default_code_section=".haldriver_text"
+        default_const_section=".haldriver_rodata"
+        default_data_section=".haldriver_data"
+        default_isr_section=".haldriver_isr"
+        default_vector_section=".haldriver_vectors"
+        default_zeroed_section=".haldriver_bss" />
+      <configuration
+        Name="Release Internal"
+        default_code_section=".haldriver_text"
+        default_const_section=".haldriver_rodata"
+        default_data_section=".haldriver_data"
+        default_isr_section=".haldriver_isr"
+        default_vector_section=".haldriver_vectors"
+        default_zeroed_section=".haldriver_bss" />
+    </folder>
+    <folder Name="Internal Files">
+      <file file_name="$(StudioDir)/samples/SEGGER_THUMB_Startup.s" />
+    </folder>
+    <folder Name="Source Files" />
+    <folder Name="usr" exclude="" filter="*.*" path="usr" recurse="No">
+      <configuration
+        Name="Common"
+        default_code_section=".usr_text"
+        default_const_section=".usr_rodata"
+        default_data_section=".usr_data"
+        default_isr_section=".usr_isr"
+        default_vector_section=".usr_vectors"
+        default_zeroed_section=".usr_bss" />
+    </folder>
+  </project>
+</solution>
