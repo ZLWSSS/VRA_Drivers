@@ -10,7 +10,7 @@ Official hardware and software support code for the paper:
 
 ## Overview
 
-This repository developed by the author contains the motor-driver firmware, USB-to-FDCAN communication tools, Linux-side control programs, and Simulink assets used in the development and hardware validation of **Voltage-Realizable Acceleration (VRA)**. Thanks to the support of HKCLR and CUHK Legged Robotics, we provide the Schematic Diagram and Gerber of the system.   
+This repository developed by the author contains the motor-driver firmware, USB-to-FDCAN communication tools, Linux-side control programs, and Simulink assets used in the development and hardware validation of **Voltage-Realizable Acceleration (VRA)**. Thanks to the support of HKCLR and CUHK Legged Robot Lab, we provide the Schematic Diagrams and Gerbers of the boards.   
 
 VRA is a joint-level acceleration interface for robots driven by voltage-constrained electric actuators. Instead of treating kinematically admissible accelerations as automatically executable, VRA explicitly accounts for actuator voltage realizability and restricts commanded accelerations to those that can be physically produced by the motor-drive system.
 
@@ -110,11 +110,6 @@ Key files include:
 
 ```text
 my_foc_TI.slx                  # Simulink motor-control model
-experiment_1202.mat            # Experimental data
-dy_datas.mat                   # Data file
-bus.mat                        # Simulink bus-related data
-plot_data.m                    # Example plotting script
-plot_datas.m                   # Data visualization script
 scan_the_damping_factor.m      # Parameter scanning script
 ```
 
@@ -201,12 +196,7 @@ make -j
 The current `CMakeLists.txt` defines the following executables:
 
 ```text
-MOTOR_STEP_SWEEP
 MOTOR_CTRL
-MOTOR_TOOL
-MOTOR_SC
-LCM_READER
-MOTOR_KEEPER
 ```
 
 These programs provide host-side utilities for motor communication, motor-control experiments, safety-oriented control, data reading, and test procedures.
@@ -215,43 +205,13 @@ These programs provide host-side utilities for motor communication, motor-contro
 
 The Simulink model and MATLAB scripts are located in:
 
-```bash
-cd VRA_Simulink
-```
-
 Open the primary model in MATLAB/Simulink:
 
 ```matlab
 open_system('my_foc_TI.slx')
 ```
 
-An example script for plotting stored experimental data is:
-
-```matlab
-plot_data
-```
-
 Additional analysis scripts are provided for visualizing recorded signals and inspecting damping-related behavior.
-
-## Relation to the Paper
-
-The paper studies a structural mismatch between discrete-time kinematic reasoning and actuator-level execution under voltage constraints.
-
-In conventional joint-level constraint handling, an acceleration command may satisfy position and velocity constraints while remaining physically unrealizable by the electric actuator, particularly near high-speed or boundary-constrained operation. VRA addresses this issue by grounding allowable joint accelerations in motor voltage constraints before execution.
-
-The experiments reported in the paper evaluate VRA on electric actuators and a wheel-legged quadruped robot, demonstrating improved execution consistency near joint constraints and reduced constraint-induced oscillation.
-
-## Hardware Safety Notice
-
-This repository contains low-level motor-control and communication code intended for powered robotic hardware.
-
-Before running experiments:
-
-* Verify motor parameters, encoder configuration, CAN IDs, and communication settings.
-* Use appropriate current, voltage, position, and emergency-stop protections.
-* Begin with unloaded or mechanically constrained tests whenever possible.
-* Monitor actuator temperature, current, bus voltage, and communication status.
-* Do not run high-power experiments without suitable hardware protection and supervision.
 
 The authors are not responsible for hardware damage or unsafe operation resulting from incorrect configuration or misuse of the code.
 
