@@ -10,7 +10,7 @@ Official hardware and software support code for the paper:
 
 ## Overview
 
-This repository developed by the author contains the motor-driver firmware, USB-to-FDCAN communication tools, Linux-side control programs, and Simulink assets used in the development and hardware validation of **Voltage-Realizable Acceleration (VRA)**. Thanks to the support of HKCLR and CUHK Legged Robot Lab, we provide the Schematic Diagrams and Gerbers of the boards.   
+This repository developed by the author contains the motor-driver firmware, USB-to-FDCAN communication tools, Linux-side control programs, and Simulink assets used in the development and hardware validation of **Voltage-Realizable Acceleration (VRA)**. Thanks to the support of HKCLR and [[CUHK Legged Robot Lab]](https://cuhkleggedrobotlab.github.io/), we provide the Schematic Diagrams and Gerbers of the boards.   
 
 VRA is a joint-level acceleration interface for robots driven by voltage-constrained electric actuators. Instead of treating kinematically admissible accelerations as automatically executable, VRA explicitly accounts for actuator voltage realizability and restricts commanded accelerations to those that can be physically produced by the motor-drive system.
 
